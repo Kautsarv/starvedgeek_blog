@@ -39,7 +39,7 @@ _Select all JAR files and libs folder_
 <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.36.11_OPg1fCm91.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656254270722"/>{: width="60%"}  
 
 ## Implementation
-Now we will create some simple automation script using dummy website that i recommend for learning create automation script [**katalon-demo-cura.herokuapp.com**](katalon-demo-cura.herokuapp.com). First, we need to create new Java class inside src directory.  
+Now we will create some simple automation script using dummy website that i recommend for learning create automation script [**katalon-demo-cura.herokuapp.com**](https://katalon-demo-cura.herokuapp.com). First, we need to create new Java class inside src directory.  
 
 <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.53.01_2LZgzBtFh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656255193173"/>{: width="60%"}  
 
