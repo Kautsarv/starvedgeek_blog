@@ -19,29 +19,29 @@ This article will show an example about how to create simple automation script u
 ## Installation
 **Step 1** : Create new Java project in Intellij  
 
-   <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.02.39_1KA-ygmS1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252461225"/>{: width="80%"}  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.02.39_1KA-ygmS1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252461225"/>{: width="80%"}  
 
-   <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.02.48_7VgeO2EJ2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252460851"/>{: width="80%"}  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.02.48_7VgeO2EJ2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252460851"/>{: width="80%"}  
 
-   <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.03.03_kdlKvhfd0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252460605"/>{: width="80%"}  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.03.03_kdlKvhfd0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252460605"/>{: width="80%"}  
 
 **Step 2** : Add the downloaded selenium JAR into Intellij as external libraries  
 
-    <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.10.40_RWMIt2rCh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252870421"/>{: width="30%"}  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.10.40_RWMIt2rCh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252870421"/>{: width="30%"}  
 
-    <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.11.24_5Y2adeUcE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252868942"/>{: width="70%"}  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.11.24_5Y2adeUcE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252868942"/>{: width="70%"}  
 
-    <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.12.28_ZEg-ZeFuH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252870957"/>{: width="60%"}
-    _Select all JAR files and libs folder_  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.12.28_ZEg-ZeFuH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656252870957"/>{: width="60%"}
+_Select all JAR files and libs folder_  
 
 **Step 3** : Create webdriver directory inside project and put the downloaded Chromedriver into the folder  
 
-    <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.36.11_OPg1fCm91.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656254270722"/>{: width="60%"}  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.36.11_OPg1fCm91.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656254270722"/>{: width="60%"}  
 
 ## Implementation
-Now we will create some simple automation script using dummy website that i recommend for learning create automation script [**katalon-demo-cura.herokuapp.com**](https://katalon-demo-cura.herokuapp.com). First, we need to create new Java class inside src directory.  
+Now we will create some simple automation script using dummy website that i recommend for learning create automation script [**katalon-demo-cura.herokuapp.com**](katalon-demo-cura.herokuapp.com). First, we need to create new Java class inside src directory.  
 
-    <img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.53.01_2LZgzBtFh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656255193173"/>{: width="60%"}  
+<img src="https://ik.imagekit.io/13kivbmzawg7/2022-06-26-simple-selenium-java-automation-script/Screenshot_2022-06-26_at_21.53.01_2LZgzBtFh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656255193173"/>{: width="60%"}  
 
 The scenario is to verify user successfully make an appointment, here is the complete source code  
 
