@@ -16,50 +16,49 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Shanghai
+future: true
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Starved Geek # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: A guy who gets money from Testing a Software and kindly spend it on Food # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A guy who love to write anything related to software testing and food review, Software Testing and Food review it sounds like a weird combination, but why not.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://starvedgeek.com'
 
 github:
-  username: github_username             # change to your github username
+  username: kautsarv             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: kaustress            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Kautsar Virzawan
+  email: ochank255@yahoo.com         # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    # https://twitter.com/kautsarv      # change to your twitter homepage
+    - https://github.com/kautsarv       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: google-site-verification=QfkgybicqMeAW0XSuyD5TUSNqEXk7lHLSORC-irLenU # change to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: 'UA-218997170-1'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    proxy_endpoint:   'https://starvedgeek.as.r.appspot.com/query?id=ag96YXN-c3RhcnZlZGdlZWtyFQsSCEFwaVF1ZXJ5GICAgJj7z4ELDA'
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
