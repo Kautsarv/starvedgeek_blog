@@ -24,10 +24,10 @@ future: true
 
 title: Starved Geek # the main title
 
-tagline: A guy who gets money from Testing a Software and kindly spend it on Food # it will display as the sub-title
+tagline: May the bugs be with you # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A guy who love to write anything related to software testing and food review, Software Testing and Food review it sounds like a weird combination, but why not.
+  A self learner that loves to write everything about software testing, practices make perfect right?
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://starvedgeek.com'
