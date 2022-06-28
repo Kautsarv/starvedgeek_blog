@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "[Selenium] Simple Java Automation Script"
-description: Learn about Agile Software Development
+description: Learn about creating simple java automation script with Selenium
 date: "2022-06-26 16:24"
 author: Kautsar Virzawan
 categories: [Front End Testing, Selenium]
@@ -203,6 +203,8 @@ public class simpleSeleniumTest {
     }
 }
 ```  
+
+Now run the java class to execute the automation script and let the magical robot works for you.  
 
 ## Code Explanation
 ### Step 1 : Setting up the ChromeDriver and instantiate the ChromeDriver object
@@ -469,6 +471,6 @@ After the test finished, we close the browser.
 ```java
 //Close browser
 driver.close();
-```
+```  
 
 Source code repository : [**Github**](https://github.com/Kautsarv/simple-selenium.git)
