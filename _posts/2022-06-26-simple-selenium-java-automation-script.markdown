@@ -454,7 +454,7 @@ System.out.println("Hospital Readmission : "+chkAdmissionFlag);
 System.out.println("Healthcare Program : "+radioMedicaidText);
 System.out.println("Visit Date : "+selectedDate);
 System.out.println("Comment : "+inputtedComment);
-if (labelFacility.getText().equals(selectedValue)                                     //Create condition for checking whether all displayed fields are identics with the inputted data
+if (labelFacility.getText().equals(selectedValue)                                     //Create condition for checking whether all displayed fields are identical with the inputted data
     && labelReadmission.getText().equals(chkAdmissionFlag)
     && labelProgram.getText().equals(radioMedicaidText)
     && labelVisitDate.getText().equals(selectedDate)
