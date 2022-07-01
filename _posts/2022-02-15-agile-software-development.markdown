@@ -182,7 +182,7 @@ An automated build and test process takes place on a daily basis and detects int
 
 Continuous integration can provide the following benefits:
 * Allows earlier detection and easier root cause analysis of integration problems and conflicting changes
-* Gives the development team regular feedback on whether the code is Working
+* Gives the development team regular feedback on whether the code is working
 * Keeps the version of the software being tested within a day of the version being developed
 * Reduces regression risk associated with developer code refactoring due to rapid re-testing of the code base after each small set of changes
 * Provides confidence that each day's development work is based on a solid foundation
@@ -210,11 +210,11 @@ Testers are involved in release planning and especially add value in the followi
 * Participating in project and quality risk analyses
 * Estimating testing effort associated with the user stories
 * Defining the necessary test levels
-* Planning the testing for the Release
+* Planning the testing for the release
 
 After release planning is done, iteration planning for the first iteration starts. Iteration planning looks ahead to the end of a single iteration and is concerned with the iteration backlog.  
 
-In iteration planning, the team selects user stories from the prioritized release backlog, elaborates the user stories, performs a risk analysis for the user stories, and estimates the work needed for each user story. If a user story is too vague and attempts to clarify it have failed, the team can refuse to accept it and use the next user story based on priority. The business representatives must answer the team’s questions about each story so the team can understand what they should implement and how to test each story.
+In iteration planning, the team selects user stories from the prioritized release backlog, elaborates the user stories, performs a risk analysis for the user stories, and estimates the work needed for each user story. If a user story is too vague and attempts to clarify it have failed, the team can refuse to accept it and use the next user story based on priority. The business representatives must answer the team’s questions about each story so the team can understand what they should implement and how to test each story.  
 
 The number of stories selected is based on established team velocity and the estimated size of the selected user stories. After the contents of the iteration are finalized, the user stories are broken into tasks, which will be carried out by the appropriate team members.  
 
@@ -223,7 +223,7 @@ Testers are involved in iteration planning and especially add value in the follo
 * Determining the testability of the user stories
 * Creating acceptance tests for the user stories
 * Breaking down user stories into tasks
-* Estimating testing effor for all testing tasks
+* Estimating testing effort for all testing tasks
 * Identifying functional and non-functional aspects of the system to be tested
 * Supporting and participating in test automation at multiple levels of testing
 
@@ -233,3 +233,42 @@ Release and iteration planning should address test planning as well as planning 
 * The test environment and test data needed
 * The timing, sequencing, dependencies, and prerequisites for the functional and non-functional test activities
 * The project and quality risks to be addressed
+
+## The Differences between Testing in Traditional and Agile Approaches
+### Testing and Development Activities
+
+One of the main differences between traditional lifecycles and Agile lifecycles is the idea of the very short iterations, each iteration resulting in working software that delivers features of value to business stakeholders. At the beginning of each iteration, there is an iteration planning period. Once iteration scope is established, the selected user stories are developed, integrated with the system, and tested. Testing activities occur throughout the iteration, not as a final activity.
+
+Testers, developers, and business stakeholders all have a role in testing, as with traditional lifecycles.  
+* **Developers** perform unit tests as they develop features from the user stories.   
+* **Testers** then test those features.  
+* **Business stakeholders** also test the stories during implementation, business stakeholders might use written test cases, but they also might simply experiment with and use the feature in order to provide fast feedback to the development team.
+
+The best practice is that no feature is considered done until it has been integrated and tested with the system. Another good practice is to address defects remaining from the previous iteration at the beginning of the next iteration, as part of the backlog for that iteration (referred to as “fix bugs first”). However, some complain that this practice results in a situation where the total work to be done in the iteration is unknown and it will be more difficult to estimate when the remaining features can be done.
+
+When risk-based testing is used as one of the test strategies, a high-level risk analysis occurs during release planning, with testers often driving that analysis. However, the specific quality risks associated with each iteration are identified and assessed in iteration planning. This risk analysis can influence the sequence of development as well as the priority and depth of testing for the features. It also influences the estimation of the test effort required for each feature.  
+
+In some Agile practices (e.g., Extreme Programming), pairing is used. Pairing can involve testers working together in twos to test a feature. Pairing can also involve a tester working collaboratively with a developer to develop and test a feature. Pairing can be difficult when the test team is distributed, but processes and tools can help enable distributed pairing.
+
+Testers may also serve as testing and quality coaches within the team, sharing testing knowledge and supporting quality assurance work within the team. This promotes a sense of collective ownership of quality of the product.
+
+Test automation at all levels of testing occurs in many Agile teams, and this can mean that testers spend time creating, executing, monitoring, and maintaining automated tests and results. Because of the heavy use of test automation, a higher percentage of the manual testing on Agile projects tends to be done using experience-based and defect-based techniques such as software attacks, exploratory testing, and error guessing. While developers will focus on creating unit tests, testers should focus on creating automated integration, system, and system integration tests. This leads to a tendency for Agile teams to favor testers with a strong technical and test automation background.
+
+One core Agile principle is that change may occur throughout the project. Therefore, lightweight work product documentation is favored in Agile projects. Changes to existing features have testing implications, especially regression testing implications. The use of automated testing is one way of managing the amount of test effort associated with change. However, it’s important that the rate of change not exceed the project team’s ability to deal with the risks associated with those changes.
+
+### Project Work Products
+
+Project work products of immediate interest to Agile testers typically fall into three categories:
+1. **Business-oriented work products** that describe what is needed (e.g., requirements specifications) and how to use it (e.g., user documentation)
+2. **Development work products** that describe how the system is built (e.g., database entity-relationship diagrams), that actually implement the system (e.g., code), or that evaluate individual pieces of code (e.g., automated unit tests)
+3. **Test work products** that describe how the system is tested (e.g., test strategies and plans), that actually test the system (e.g., manual and automated tests), or that present test results (e.g., test dashboards).
+
+In a typical Agile project, it is a common practice to avoid producing vast amounts of documentation. Instead, focus is more on having working software, together with automated tests that demonstrate conformance to requirements. This encouragement to reduce documentation applies only to documentation that does not deliver value to the customer.
+
+Typical business-oriented work products on Agile projects include user stories and acceptance criteria. User stories are the Agile form of requirements specifications, and should explain how the system should behave with respect to a single, coherent feature or function. A user story should define a feature small enough to be completed in a single iteration. Larger collections of related features, or a collection of sub-features that make up a single complex feature, may be referred to as “epics”. Epics may include user stories for different development teams. For example, one user story can describe what is required at the API-level (middleware) while another story describes what is needed at the UI- level (application). These collections may be developed over a series of sprints. Each epic and its user stories should have associated acceptance criteria.
+
+Typical developer work products on Agile projects include code. Agile developers also often create automated unit tests. These tests might be created after the development of code.
+
+Typical tester work products on Agile projects include automated tests, as well as documents such as test plans, quality risk catalogs, manual tests, defect reports, and test results logs. The documents are captured in as lightweight a fashion as possible, which is often also true of these documents in traditional lifecycles. Testers will also produce test metrics from defect reports and test results logs, and again there is an emphasis on a lightweight approach.
+
+In some Agile implementations, especially regulated, safety critical, distributed, or highly complex projects and products, further formalization of these work products is required. For example, some teams transform user stories and acceptance criteria into more formal requirements specifications. Vertical and horizontal traceability reports may be prepared to satisfy auditors, regulations, and other requirements.
